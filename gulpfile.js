@@ -48,3 +48,8 @@ gulp.task('images', function() {
 gulp.task('clean', function() {
     return del(['dist/assets/css', 'dist/assets/js', 'dist/assets/img']);
 });
+
+//Setting up default tasks to be run when the "gulp" command is called in the terminal
+gulp.task('default', ['clean'], function() {
+    gulp.start('styles', 'scripts', 'images');
+});
