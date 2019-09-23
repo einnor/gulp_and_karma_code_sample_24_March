@@ -24,7 +24,7 @@
   "homepage": "https://github.com/einnor/gulp_and_karma_code_sample_24_March#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "jasmine-core": "^2.4.1",
+    "jasmine-core": "^3.5.0",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
     "karma-firefox-launcher": "^0.1.7",
